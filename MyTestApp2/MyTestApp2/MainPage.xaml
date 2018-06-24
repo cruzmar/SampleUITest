@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyTestApp2"
+             x:Class="MyTestApp2.MainPage">
+    <StackLayout>
+
+	<Label Text="Welcome to Xamarin.Forms!555" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+        <Entry
+            x:Name="_entry1" 
+            AutomationId="ENTRY_Entry1"
+            />
+        <Entry
+            x:Name="_entry2"
+            AutomationId="ENTRY_Entry2" />
+        <Button
+            x:Name="_button1"
+            AutomationId="BUTTON_Button1"
+            Text="Click Me!" />
+
+        <Entry
+            x:Name="_entry3"
+            AutomationId="ENTRY_Entry3"
+            />
+
+    </StackLayout>
+
+</ContentPage>
