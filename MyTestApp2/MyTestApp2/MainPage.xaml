@@ -5,7 +5,7 @@
              x:Class="MyTestApp2.MainPage">
     <StackLayout>
 
-	<Label Text="Welcome to Xamarin.Forms!555" 
+	<Label Text="Welcome to Xamarin.Forms!Build Integrated" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
